@@ -1,0 +1,36 @@
+body, html { 
+    background: url(convertible.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  h1{
+    font-size: 2rem;
+    color: #333;
+  margin-bottom: 20px;
+  }
+  .buffer{
+    height: 25rem;
+  }
+  hr{
+    border-width: 3px;
+    border-color: orange;
+    max-width: 60px;
+  }
+  .btn{
+    border-radius: 300px;
+    font-size: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .btn-success{
+    background-color: orange;
+  }
+  .btn-success:hover{
+    background-color: aqua;
+    border-color: #333;
+    border-width: 5px;
+  }
+ 
